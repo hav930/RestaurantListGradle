@@ -1,5 +1,3 @@
-/----------------------------------------------
-// RestaurantList Copntainer:
 FROM gradle:jdk10 AS builder
 COPY --chown=gradle:gradle . /app
 WORKDIR /app
